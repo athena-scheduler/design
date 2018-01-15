@@ -15,6 +15,7 @@ will be structured.
 | Institutions | [`Institution[]`](#institution) | The institutions the student belongs to |
 | Program | [`Program[]`](#program) | The programs the student is enrolled in. Most students will only be enrolled in one program at a time |
 | CompletedCourses | [`Course[]`](#course) | The courses the student has already completed |
+| InProgressCourses | [`Course[]`](#course) | The courses the student is currently enrolled in or is planning on taking this semester |
 
 
 A `Student` is one of the top-most datatypes in our hierchy.
